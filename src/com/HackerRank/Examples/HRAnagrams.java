@@ -1,14 +1,11 @@
 package com.HackerRank.Examples;
 
-import java.util.Arrays;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class HRAnagrams {
 
     static boolean isAnagram(String a, String b) {
         // Complete the function
-        boolean isAnagram = false;
 
         a = a.toLowerCase();
         b = b.toLowerCase();
