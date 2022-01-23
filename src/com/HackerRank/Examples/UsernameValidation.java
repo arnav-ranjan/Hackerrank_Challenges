@@ -1,8 +1,10 @@
 package com.HackerRank.Examples;
+
 import java.util.Scanner;
+
 class UsernameValidator {
 
-    public static final String regularExpression = "^[aA-zZ]\\w{7,29}$";
+    public static final String regularExpression = "^[a-zA-Z]\\w{7,29}$";
 }
 
 
