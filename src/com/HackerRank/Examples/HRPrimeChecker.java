@@ -6,6 +6,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 import java.lang.reflect.*;
+import static java.lang.System.in;
 
 class Prime {
 
@@ -40,7 +41,7 @@ public class HRPrimeChecker {
 
     public static void main(String[] args) {
         try{
-            BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+            BufferedReader br=new BufferedReader(new InputStreamReader(in));
             int n1=Integer.parseInt(br.readLine());
             int n2=Integer.parseInt(br.readLine());
             int n3=Integer.parseInt(br.readLine());
