@@ -21,14 +21,12 @@ class Jasmine extends Flower {
 
 class Lily extends Flower {
     @Override
-     public String whatsYourName() {
-        return "Lily";
-    }
+     public String whatsYourName() {return "Lily";}
 }
 
 class Region {
     public Flower yourNationalFlower() {
-        return  new Flower();
+        return new Flower();
     }
 }
 
