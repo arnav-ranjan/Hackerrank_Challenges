@@ -1,7 +1,7 @@
 package com.HackerRank.Examples;
 
 import java.util.*;
-// hello?
+
 class student {
     private int token;
     private  String fname;
